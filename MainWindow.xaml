@@ -1,0 +1,53 @@
+﻿<Window x:Class="AlparMoto_IMS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlparMoto_IMS"
+        mc:Ignorable="d"
+        Title="Alpar Moto IMS Startup" Height="600" Width="00" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" MinWidth="800" MinHeight="600" MaxWidth="800" MaxHeight="600" WindowStyle="None" Background="Transparent" AllowsTransparency="True">
+    <Border CornerRadius="10" BorderBrush="Transparent" BorderThickness="0" Padding="8" Opacity="0.9">
+        <Border.Background>
+            <LinearGradientBrush>
+                <GradientStop Color="PaleVioletRed" Offset="0.0"/>
+                <GradientStop Color="#FF8C1A1A" Offset="1"/>
+            </LinearGradientBrush>
+        </Border.Background>
+        <Grid>
+            <Image Source="/Alpar-MotoTech-icon.ico" Margin="295,108,295,332" Opacity="0.8" >
+                <Image.Effect>
+                    <DropShadowEffect/>
+                </Image.Effect>
+            </Image>
+            <TextBlock Text="No Design Build 0.1" FontSize="12" TextAlignment="Center" Margin="663,10,22,559" Foreground="#7FFFFFFF" FontFamily="Candara" Opacity="0.85">
+            </TextBlock>
+            <TextBlock Text="Login" FontSize="26" TextAlignment="Center" Margin="340,234,340,314" Foreground="White" FontFamily="Candara" Opacity="0.85">
+                <TextBlock.Effect>
+                    <DropShadowEffect/>
+                </TextBlock.Effect>
+            </TextBlock>
+            <TextBox Name="TxtBoxName" FontSize="20" TextAlignment="Center" Margin="272,275,272,279" Opacity="0.85" BorderBrush="{x:Null}" FontFamily="Candara" Background="#3FFFFFFF" SelectionBrush="#FFDC6464">
+                <TextBox.Effect>
+                    <DropShadowEffect/>
+                </TextBox.Effect>
+            </TextBox>
+            <Button Name="BtnLogin" Margin="306,323,306,221" FontFamily="Candara" Opacity="0.85" Background="#7FFFFFFF" FontSize="16" Click="BtnLogin_Click" BorderBrush="{x:Null}" FontWeight="Bold">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect> Proceed Login
+            </Button>
+            <Button Name="BtnCheckLog" Margin="306,382,306,162" FontFamily="Candara" Opacity="0.85" Background="#7FFFFFFF" FontSize="16" Click="BtnCheckLog_Click" BorderBrush="{x:Null}" FontWeight="Bold">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect> Check Log
+            </Button>
+            <Button Name="BtnExit" Margin="306,440,306,104" FontFamily="Candara" Opacity="0.85" Background="#7FFFFFFF" FontSize="16" Click="BtnExit_Click" BorderBrush="{x:Null}" FontWeight="Bold">
+                <Button.Effect>
+                    <DropShadowEffect/>
+                </Button.Effect> Exit
+            </Button>
+            <TextBlock Name="TxtNotify" FontSize="22" TextAlignment="Center" Margin="10,501,10,47" Foreground="#FFEECF03" FontFamily="Candara" Opacity="1">
+            </TextBlock>
+        </Grid>
+    </Border>
+</Window>

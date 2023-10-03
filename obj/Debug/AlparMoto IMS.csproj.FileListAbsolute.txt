@@ -1,0 +1,31 @@
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\AlparMoto IMS.exe.config
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\AlparMoto IMS.exe
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\AlparMoto IMS.pdb
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\EntityFramework.dll
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\EntityFramework.xml
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.csproj.AssemblyReference.cache
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\MainWindow.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\App.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS_MarkupCompile.cache
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS_MarkupCompile.lref
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\MainWindow.baml
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.g.resources
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto_IMS.Properties.Resources.resources
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.csproj.GenerateResource.cache
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.csproj.CoreCompileInputs.cache
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.csproj.CopyComplete
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.exe
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS.pdb
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\AlparMotoDB.mdf
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\bin\Debug\AlparMotoDB_log.ldf
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\MainIMSWindow.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AlparMoto IMS_Content.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\MainIMSWindow.baml
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AddItem.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\AddItem.baml
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\EditItem.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\EditItem.baml
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\CheckLogs.g.cs
+C:\Users\Alexander IV P\source\repos\AlparMoto IMS\obj\Debug\CheckLogs.baml

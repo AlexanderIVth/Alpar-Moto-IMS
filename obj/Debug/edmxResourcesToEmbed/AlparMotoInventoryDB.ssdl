@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlparMotoDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Products">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Part Number" Type="varchar(max)" Nullable="false" />
+    <Property Name="Product Name" Type="varchar(max)" Nullable="false" />
+    <Property Name="Stock Amount" Type="float" Nullable="false" />
+    <Property Name="Description" Type="varchar(max)" />
+    <Property Name="Keywords" Type="nvarchar(max)" />
+    <Property Name="Date Received" Type="datetime" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+    <Property Name="Retail Price" Type="float" Nullable="false" />
+    <Property Name="Time Date Added" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="User Changes">
+    <Key>
+      <PropertyRef Name="ChangeID" />
+    </Key>
+    <Property Name="ChangeID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar(max)" Nullable="false" />
+    <Property Name="Change" Type="varchar(max)" Nullable="false" />
+    <Property Name="Time Date of Change" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar(max)" Nullable="false" />
+    <Property Name="Last Login" Type="datetime" Nullable="false" />
+    <Property Name="Date Created" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="AlparMotoDBModelStoreContainer">
+    <EntitySet Name="Products" EntityType="Self.Products" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User Changes" EntityType="Self.User Changes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Users" EntityType="Self.Users" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlparMotoDBModelStoreContainer" CdmEntityContainer="AlparMotoDBEntities">
+    <EntitySetMapping Name="Products">
+      <EntityTypeMapping TypeName="AlparMotoDBModel.Product">
+        <MappingFragment StoreEntitySet="Products">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Part_Number" ColumnName="Part Number" />
+          <ScalarProperty Name="Product_Name" ColumnName="Product Name" />
+          <ScalarProperty Name="Stock_Amount" ColumnName="Stock Amount" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Keywords" ColumnName="Keywords" />
+          <ScalarProperty Name="Date_Received" ColumnName="Date Received" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Retail_Price" ColumnName="Retail Price" />
+          <ScalarProperty Name="Time_Date_Added" ColumnName="Time Date Added" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="User_Changes">
+      <EntityTypeMapping TypeName="AlparMotoDBModel.User_change">
+        <MappingFragment StoreEntitySet="User Changes">
+          <ScalarProperty Name="ChangeID" ColumnName="ChangeID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Change" ColumnName="Change" />
+          <ScalarProperty Name="Time_Date_of_Change" ColumnName="Time Date of Change" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="AlparMotoDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Last_Login" ColumnName="Last Login" />
+          <ScalarProperty Name="Date_Created" ColumnName="Date Created" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
